@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+body {
+    background-color: #F7F8FA;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+.mainWrapper {
+    padding: 100px 0;
+}
+
+.btn-group {
+    border: 0;
+    outline: 0;
+    border-radius: 0;
+}
+
+.your-order-right {
+    padding-right: 153px;
+}
+
+.cancel-left-btn {
+    margin-left: 80px;
+}
+
+.invoice-btn {
+    margin-left: 60px;
+}
+
+.left-drop-bg {
+    background-color: rgba(209, 213, 219);
+    font-weight: 600;
+}
+
+.left-drop-bg-bottom {
+    background-color: rgba(229, 231, 235);
+}
+
+.order-left {
+    padding-left: 100px !important;
+}
+
+.btn-style-1 {
+    background-color: #B91C1C;
+    border-radius: 5px;
+    color: #F7F8FA;
+    padding: 2px 4px;
+    font-weight: 600;
+}
+
+.btn-style-2 {
+    background-color: #D1D5DB;
+    border: 1px solid #B91C1C;
+    border-radius: 5px;
+    color: #B91C1C;
+    padding: 2px 4px;
+    font-weight: 600;
+}
+
+.btn-style-3 {
+    background-color: #e9e9e9;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: #140909;
+    padding: 2px 4px;
+    font-weight: 600;
+}
+
+.btn-style-4 {
+    background-color: rgba(254, 202, 202);
+    ;
+    border-radius: 5px;
+    color: #140909;
+    padding: 4px 6px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+    .left-drop-bg {
+        margin-left: 40px;
+    }
+    .invoice-btn {
+        margin-left: 15px;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /*  .left-drop-bg {
+        margin-left: 0px;
+    }
+    .your-order-right {
+        padding-right: 108px;
+    } */
+}
